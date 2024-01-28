@@ -4,5 +4,6 @@ y=3;
 z=x+y;
 fprintf('z=%2.3f',z);
 a=1;
+b=1i;
 fprintf('c=%2.3f',z);
 
