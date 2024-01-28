@@ -6,5 +6,5 @@ fprintf('z=%2.3f',z);
 a=1;
 b=1i;
 c=a+b;
-fprintf('c=%2.3f',z);
+fprintf('c=%2.3f',c);
 
