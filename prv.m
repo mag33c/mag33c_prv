@@ -8,5 +8,5 @@ b=2i;
 c=a+b;
 fprintf('complex c=%2.3f',c);
 figure; clf;
-plot(x,y)
+plot(x,y,'r')
 
