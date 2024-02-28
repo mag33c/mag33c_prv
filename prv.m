@@ -7,6 +7,8 @@ a=11;
 b=2i;
 c=a+b;
 fprintf('complex c=%2.3f',c);
+t=1:10;
+z=t^2;
 figure(1); clf;
-plot(x,y,'r');
+plot(t,z,'r');
 
