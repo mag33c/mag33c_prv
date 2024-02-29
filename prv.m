@@ -7,7 +7,7 @@ a=11;
 b=2i;
 c=a+b;
 fprintf('complex c=%2.3f',c);
-t=1:10;
+t=1:0.1:10;
 z=t^2;
 figure(1); clf;
 plot(t,z,'r');
