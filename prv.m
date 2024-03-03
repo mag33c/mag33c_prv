@@ -11,4 +11,5 @@ t=1:0.1:10;
 z=t^2;
 figure(1); clf;
 plot(t,z,'r--');
-
+hold on;
+plot(t,2*z,'r--');
