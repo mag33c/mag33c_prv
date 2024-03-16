@@ -13,4 +13,5 @@ figure(1); clf;
 plot(t,z,'r--');
 hold on;
 plot(t,2*z,'r--');
+hold on; plot(t,z^2,'b');
 clear all;
