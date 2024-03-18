@@ -16,5 +16,5 @@ plot(t,2*z,'r--');
 hold on; plot(t,z^2,'b');
 xlabel('t');
 ylabel('z^2');
-clear all;
+clear vars;
 
