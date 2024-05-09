@@ -22,3 +22,4 @@ for i=1:100
   tab(i)=t^2-1;
 end
 figure(1); clf;
+plot(i,t,'b');
