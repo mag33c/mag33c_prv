@@ -21,4 +21,4 @@ for i=1:100
   t=i*0.1;
   tab(i)=t^2-1;
 end
-  
+figure(1); clf;
