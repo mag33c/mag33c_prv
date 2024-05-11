@@ -23,3 +23,11 @@ for i=1:100
 end
 figure(1); clf;
 plot(i,t,'b');
+
+i=1
+for t=0:1e-3:10e-3
+  t(i)=t;
+  s(i)=sin(2*pi*50*t);
+  i=i+1;
+end
+  
