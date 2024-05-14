@@ -30,6 +30,6 @@ for t=0:1e-3:10e-3
   s(i)=sin(2*pi*50*t);
   i=i+1;
 end
-figure(2); plot(t,s,'b');
+figure(2); p=plot(t,s,'b'); set(p,'LineWidth',12);
 grid on
   
