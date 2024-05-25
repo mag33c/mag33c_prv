@@ -16,13 +16,7 @@ plot(t,z.^2,'r--');
 hold on; plot(t,z^2,'b');
 xlabel('t');
 ylabel('z^2');
-clear vars;
-for i=1:100
-  t=i*0.1;
-  tab(i)=t^2-1;
-end
-figure(1); clf;
-plot(i,t,'b');
+
 
 i=1
 for t=0:1e-3:10e-3
