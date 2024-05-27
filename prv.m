@@ -26,5 +26,6 @@ for t=0:1e-3:10e-3
 end
 figure(2); p=plot(t,s,'b'); set(p,'LineWidth',12);
 hold on; p=plot(t,s^1.2,'r'); set(p,'LineWidth',12);
+hold on; p=plot(t,s^1.3,'kx'); set(p,'LineWidth',12);
 grid on
   
