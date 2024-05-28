@@ -29,3 +29,4 @@ hold on; p=plot(t,s^1.2,'r'); set(p,'LineWidth',12);
 hold on; p=plot(t,s^1.3,'kx'); set(p,'LineWidth',12);
 grid on
   
+[ix ~]=find(t>5e-3); ix1=ix(1);
